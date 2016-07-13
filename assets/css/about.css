@@ -1,0 +1,43 @@
+/* ABOUT PAGE-SPECIFIC STYLESHEET */
+#about {
+	margin-top: 15%;
+}
+
+#aboutInfo,
+#aboutValues,
+#aboutBeliefs {
+	margin-top: 30%;
+	color: #080808;
+	opacity: .9;
+}
+
+#aboutInfo h4,
+#aboutBeliefs h4 {
+	padding-top: 1px;
+}
+
+#aboutBeliefs p {
+	text-align: left;
+}
+
+#whyDBInfo {
+	text-align: left;
+}
+
+#aboutValues ul {
+	text-align: left;
+	font-size: 2em;
+	list-style: none;
+}
+
+#beliefs h3 {
+	margin-top: 30px;
+}
+
+#box {
+	padding-bottom: 10%;
+}
+
+hr {
+	border-color: #080808;
+}

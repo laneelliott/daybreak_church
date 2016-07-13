@@ -1,0 +1,358 @@
+/* COLOR REFERENCES
+
+DB Orange:		#ff9900
+DB Dark Orange	#f09000
+New DB Oragne?	#EF6C00
+Background		#080808
+
+=======================================================
+
+Custom CSS for DayBreak Church website using Bootstrap
+
+created by Lane Anderson
+======================================================= */
+
+
+/* ========== GENERAL =========== */
+* {
+	/*border: 1px dashed red; */
+}
+
+body {
+	background: #080808;
+	/*
+	margin-top: 0px;
+	background-image: url('../img/kenosha_lighthouse.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.number {
+	font-family: Helvetica, sans-serif;
+}
+
+
+/* ========== BODY ========== */
+
+/* ========== NAVBAR ======== */
+
+.navbar-inverse {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+	opacity: .6;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	color: white;
+	opacity: .6;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: white;
+	opacity: .7;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+	color: #9d9d9d;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+	border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+
+}
+.navbar-nav li {
+		float: none;
+		display: inline-block;
+}
+
+
+/* ========== Toggle Navbar Graphic ========*/
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #ff9900;
+	opacity: .9;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+
+
+/* LOGO */
+
+#dbLogo img {
+	opacity: .6;
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: fixed;
+}
+
+
+/* =========== BODY TEXT =========== */
+#churchInfo {
+	margin-top: 15%;
+	color: white;
+	opacity: .9;
+}
+
+#churchInfo h1 {
+	font-size: 4em;
+}
+
+#churchInfo h4 {
+	font-size: 1.5em;
+	padding-top: 1px;
+}
+
+#churchInfo h2 {
+	font-size: 2em;
+}
+
+#box {
+	/*border: 2px solid white;*/
+	background: rgba(255, 255, 255, .7);
+	color: #080808;
+	margin-top: 40px;
+}
+
+/*#box:hover {
+	background-color: white;
+	opacity: .7;
+	color: #080808;
+}*/
+
+.slightSpacing {
+	margin: 5px 0 5px 0;
+}
+
+/* ============ SOCIAL ICONS ============= */
+#socialIcons {
+	margin: 0 13px 43px 0;
+}
+
+#givingIcons {
+	margin: auto;
+}
+
+.badge.giving span {
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.badge.giving,
+.badge.giving:active {
+	border: 1px solid #080808;
+	background-color: white;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-size: 52px;
+	height: 50px;
+	width: 35%;
+	text-align: center;
+	line-height: 52px;
+	margin: 0 0px 0px 0;
+	padding: 0;
+	color: #ff9900;
+}
+
+.fa.fa-money {
+	display: none;
+}
+
+
+
+.badge.giving:hover {
+	color: white;
+	background-color: #ff9900;
+	font-size: 52px;
+}
+
+.badge.social {
+	float: right;
+	background-color: rgba(255, 255, 255, .2);
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 42px;
+	margin: 0 5px 20px 0;
+	padding: 0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	color: rgba(255, 255, 255, .4);
+}
+
+.badge.social.facebook:hover {
+	background-color: #3B5998;
+	opacity: .7;
+}
+
+/* ============ FOOTER ============= */
+#footerNavbar {
+	color: white;
+	opacity: .99;
+	display: none;
+}
+
+#footerNavbar h2 {
+	font-size: 1em;
+	color: #ff9900;
+	opacity: .9;
+}
+
+
+
+
+
+/* =========== MEDIA QUERIES =========== */
+@media (min-width: 768px) {
+	.navbar-brand img {
+		display: none;
+	}
+	.navbar-fixed-top {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	#dbLogo img {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-brand img {
+		display: inline-block;
+		opacity: .9;
+		width: 40px;
+		height: 40px;
+		margin: auto;
+		margin-top: -10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-nav li {
+		display: block;
+	}
+	.navbar-collapse {
+		background-color: white;
+		opacity: .9;
+		padding-bottom: 50px;
+	}
+	.navbar-inverse {
+		background-color: white;
+		opacity: .99;
+		margin-top: -5px;
+		padding-top: 5px;
+		padding-bottom: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		color: #080808;
+		opacity: .9;
+	}
+	.navbar-inverse .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:hover {
+		color: #ff9900;
+		opacity: .9;
+	}
+	.navbar-inverse .navbar-nav > .active > a {
+		color: #080808;
+		opacity: .9;
+		background-color: transparent;
+	}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+		border-color: white;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		/*background-image: url('../img/kenosha_lighthouse.jpg');*/
+		background-repeat: no-repeat;
+		background-size: 200%;
+		background-position-x: 50%;
+		background-position-y: 25%;
+	}
+}
+
+@media (max-width: 480px) {
+	body {
+		/*background-image: url('../img/kenosha_lighthouse.jpg');*/
+		background-repeat: no-repeat;
+		background-size: 300%;
+		background-position-x: 50%;
+		background-position-y: 25%;
+	}
+}
+
+/* ========= BODY TEXT SIZING QUERIES ============== */
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+	#churchInfo {
+		margin-top: 10%;
+	}
+
+	#churchInfo h1 {
+		font-size: 2.5em;
+	}
+
+	#churchInfo h4 {
+		font-size: 1.2em;
+		padding-top: 2px;
+	}
+	#churchInfo h2 {
+		font-size: 1.5em;
+	}
+}
+
+/* ========= FOOTER QUERIES ============ */
+@media (max-width: 767px) {
+	#footerNavbar {
+		display: block;
+	}
+	.navbar-fixed-bottom{
+		margin: 0;
+		padding: 0;
+	}
+}
