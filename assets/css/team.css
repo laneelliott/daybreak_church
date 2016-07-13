@@ -1,0 +1,89 @@
+/* ABOUT PAGE-SPECIFIC STYLESHEET */
+#pastor {
+	margin-top: 15%;
+}
+
+#aboutInfo,
+#aboutValues,
+#aboutBeliefs {
+	margin-top: 30%;
+	color: #080808;
+	opacity: .9;
+}
+
+#aboutInfo h1,
+#aboutBeliefs h1 {
+	font-size: 4em;
+}
+
+#aboutInfo h4,
+#aboutBeliefs h4 {
+	font-size: 1.5em;
+	padding-top: 1px;
+}
+
+#aboutInfo h2,
+#aboutBeliefs h2 {
+	font-size: 2em;
+}
+
+#aboutBeliefs p {
+	text-align: left;
+}
+
+#aboutValues ul {
+	text-align: left;
+	font-size: 2em;
+	list-style: none;
+}
+
+#beliefs h3 {
+	margin-top: 30px;
+}
+
+#box {
+	padding-bottom: 10%;
+}
+
+hr {
+	border-color: #080808;
+	background: #080808;
+	color: #080808;
+}
+
+
+/* ======== PASTOR BLOCK ========== */
+
+#pastorBlockText {
+	float: left;
+	text-align: left;
+}
+
+#pastorBlockPhoto {
+	text-align: center;;
+}
+
+#pastorContent {
+	margin: 20px 10px 20px 10px;
+}
+
+#pastorBlockPhoto img {
+	width: 100%;
+}
+
+
+
+
+/* ========== TEAM BLOCK ============= */
+
+#teamContent {
+	margin: 20px 10px 20px 10px;
+}
+
+#riseteam {
+	text-align: center;
+}
+
+#riseteam img {
+	width: 100%;
+}

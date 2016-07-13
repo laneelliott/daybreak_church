@@ -1,0 +1,45 @@
+/* CONTACT PAGE-SPECIFIC STYLESHEET */
+#contact {
+	margin-top: 15%;
+}
+
+#box {
+	padding-bottom: 10%;
+}
+
+hr {
+	border-color: #080808;
+	background: #080808;
+	color: #080808;
+}
+
+
+/* ======== CONTACT BLOCK ========== */
+
+#contactInfoText {
+	float: left;
+	text-align: center;
+}
+
+#contactInfoText h1 {
+	text-align: center;
+}
+
+#contactForm h1 {
+	text-align: center;
+}
+
+#contactForm {
+	text-align: center;
+}
+
+#contactForm a:link {
+	color: #080808;
+}
+#contactForm a:hover {
+	color: #ff9900;
+}
+
+#contactInfo {
+	margin: 20px 10px 20px 10px;
+}
