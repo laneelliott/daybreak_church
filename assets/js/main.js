@@ -1,3 +1,4 @@
+//NAVBAR SCROLLING CHANGE
 $('#givingIcons').hover( function(){
 	$('.badge.giving span').hide();
 	$('.badge.giving .fa.fa-money').fadeIn("slow");
