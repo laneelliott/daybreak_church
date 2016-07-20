@@ -1,7 +1,4 @@
 /* CONTACT PAGE-SPECIFIC STYLESHEET */
-#contact {
-	margin-top: 15%;
-}
 
 #box {
 	padding-bottom: 10%;
@@ -42,4 +39,22 @@ hr {
 
 #contactInfo {
 	margin: 20px 10px 20px 10px;
+}
+
+/* ==========	MOBILE LAYOUT ========= */
+@media (max-width: 767px) {
+	#contactInfoText {
+		display: block;
+		float: none;
+	}
+	#contactInfo h1 {
+		font-size: 1.8em;
+	}
+	#contactInfo h3 {
+		font-size: 1.3em;
+	}
+
+	#contactForm {
+		padding-top: 20px;
+	}
 }

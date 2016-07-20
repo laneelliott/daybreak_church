@@ -1,8 +1,4 @@
 /* ======== GIVING STYLESHEET ========== */
-/* CONTACT PAGE-SPECIFIC STYLESHEET */
-#give {
-	margin-top: 15%;
-}
 
 #box {
 	padding-bottom: 10%;
@@ -15,4 +11,18 @@
 
 hr {
 	border-color: #080808;
+}
+
+#giveBtn,
+#giveBtn:active {
+	font-size: 2em;
+	color: #ff9900;
+	border: 1px solid #ff9900;
+	padding: 5px 5px 5px 5px;
+}
+
+#giveBtn:hover {
+	text-decoration: none;
+	background-color: #ff9900;
+	color: white;
 }

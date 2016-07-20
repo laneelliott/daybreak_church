@@ -155,6 +155,10 @@ body {
 	color: #080808;
 }*/
 
+.orange {
+	text-shadow: 2px 2px 8px #ff9900;
+}
+
 .slightSpacing {
 	margin: 5px 0 5px 0;
 }
@@ -271,6 +275,7 @@ body {
 @media (max-width: 767px) {
 	.navbar-nav li {
 		display: block;
+		padding-left: 37px;
 	}
 	.navbar-collapse {
 		background-color: white;
@@ -344,6 +349,40 @@ body {
 	}
 	#churchInfo h2 {
 		font-size: 1.5em;
+	}
+}
+
+/* ============ SPACING OF BOX IN MOBILE & DESKTOP ============= */
+@media (min-width: 768px) {
+	#about {
+		margin-top: 12%;
+	}
+	#pastor {
+		margin-top: 12%;
+	}
+	#contact {
+		margin-top: 12%;
+	}
+	#give {
+		margin-top: 12%;
+	}
+}
+
+@media (max-width: 767px) {
+	#churchInfo {
+		margin-top: 30%;
+	}
+	#about {
+		margin-top: 0%;
+	}
+	#pastor {
+		margin-top: 0%;
+	}
+	#contact {
+		margin-top: 0%;
+	}
+	#give {
+		margin-top: 0%;
 	}
 }
 
