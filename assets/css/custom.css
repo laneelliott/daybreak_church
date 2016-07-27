@@ -194,17 +194,12 @@ body {
 	color: #ff9900;
 }
 
-.fa.fa-money {
-	display: none;
+i.icon-plus-sign {
+	background-color: transparent;
+	color: #080808;
+	opacity: .6;
 }
 
-
-
-.badge.giving:hover {
-	color: white;
-	background-color: #ff9900;
-	font-size: 52px;
-}
 
 .badge.social {
 	float: right;
@@ -396,3 +391,17 @@ body {
 		padding: 0;
 	}
 }
+
+
+/* ============== SCROLLING TEST FOR NAVBAR ============== */
+
+/*
+#dbLogo {
+	display: none;
+}
+
+.navbar-inverse {
+	background-color: #ff9900;
+	margin-top: -35px;
+}
+*/

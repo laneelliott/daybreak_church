@@ -37,3 +37,13 @@
 hr {
 	border-color: #080808;
 }
+
+.hidden {
+	display: none;
+}
+
+.icon-plus-sign {
+	background-color: white;
+	opacity: .6;
+	color: #ff9900;
+}
